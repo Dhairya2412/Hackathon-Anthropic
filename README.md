@@ -1,6 +1,6 @@
 # 🎓 Campus Copilot — AI
 
-> **Campus Intelligence & Equity**
+> **Campus Intelligence & Equity**  
 > One AI for money, legal rights, financial aid, and campus life — built for first-gen, low-income, and non-traditional and international students.
 
 ---
