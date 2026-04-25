@@ -4,6 +4,15 @@
 > One AI for money, legal rights, financial aid, and campus life — built for first-gen, low-income, and non-traditional students.
 
 ---
+## Made By
+
+- Simran Mohapatra
+- Sukriti Srivastava
+- Dhairya Parikh
+
+## Project Impact
+
+Campus Copilot helps students find and use support that is often hidden across disconnected campus systems. It gives first-gen, low-income, and non-traditional students one AI-powered place for budgeting, financial aid guidance, legal rights, transportation, events, and emergency resources. By turning scattered information into clear next steps, it helps students get the support they need faster and more fairly.
 
 ## What It Does
 
@@ -59,8 +68,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>
 )
 ```
-
-Delete `src/App.jsx` and `src/App.css` — you won't need them.
 
 ### 3. Add your API key
 
@@ -189,16 +196,6 @@ npm run build
 
 Output goes to the `dist/` folder. Deploy that folder to Vercel, Netlify, or any static host.
 
-**For Vercel deployment:**
-
-```bash
-npm install -g vercel
-vercel --prod
-```
-
-Add `VITE_ANTHROPIC_KEY` as an environment variable in your Vercel dashboard under Project Settings → Environment Variables.
-
----
 
 ## Customizing for Your Campus
 
@@ -211,22 +208,6 @@ To adapt this for a real university, update these sections in `CampusCopilot.jsx
 **Financial aid topics** (`AID_TOPICS` object): Add school-specific scholarships, emergency fund names, and deadlines.
 
 **System prompt** (`SYSTEM` constant): Add your university name so Claude can reference it directly in responses.
-
----
-
-## Common Issues
-
-**"Failed to fetch" error in browser console**
-Your API key is missing or incorrect. Double-check your `.env` file and make sure you added the `x-api-key` header to all three `fetch()` calls in the component.
-
-**Blank screen after `npm run dev`**
-Run `npm install` first. If it still fails, check that your Node version is 18+.
-
-**Maps open to wrong location**
-Click "Use My Location" in the Survive Mode or Get Around tabs and allow browser location access when prompted.
-
-**Claude not responding / tool calls not working**
-Check your browser console for the API response. Common causes: expired API key, billing issue on Anthropic account, or network error.
 
 ---
 
