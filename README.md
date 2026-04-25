@@ -4,7 +4,7 @@
 > One AI for money, legal rights, financial aid, and campus life — built for first-gen, low-income, and non-traditional students.
 
 ---
-## Made By
+## Contributed By
 
 - Simran Mohapatra
 - Sukriti Srivastava
@@ -213,12 +213,9 @@ To adapt this for a real university, update these sections in `CampusCopilot.jsx
 
 ## Tech Stack
 
-- **React 18** + **Vite** — frontend framework and build tool
+- **React** + **Vite** — frontend framework and build tool
 - **Claude Sonnet (claude-sonnet-4-20250514)** — AI backbone via Anthropic API
 - **Claude Tool Use** — 10 structured tools for live budget + UI control
-- **Google Maps** — location-based map search (no API key needed for basic search URLs)
-- **Browser Geolocation API** — GPS for hyper-local map results
-- **Space Mono + Outfit** — typography via Google Fonts
 - No other dependencies — zero extra packages beyond React itself
 
 ---
